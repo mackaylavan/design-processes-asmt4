@@ -1,0 +1,237 @@
+/**
+Document Colors: 
+light blue #F0F8F8
+purple 928FBB
+dark purple 88457D
+pink F09DC3
+red E76C87
+**/
+body{
+    font-size: 24px;
+    margin:0;
+    background-color: #f0f8f8;
+}
+
+h1,
+h2, 
+h3,
+h4{
+    font-family: "flood-std", sans-serif;
+}
+p{
+    font-family: "p22-underground", sans-serif;
+    color: #f09dc3; 
+}
+header{
+    background-color: #f0f8f8;
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto; 
+}
+.half-width{
+    max-width: 50%;
+}
+.algn-rt{
+   text-align: right;
+   max-width: 40%;
+   padding: 50px;
+}
+.algn-lft{
+    text-align: left;
+    max-width: 40%;
+    padding: 50px;
+}
+.centered{
+    text-align: center;
+}
+.flex-space-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#name-n-stuff{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    flex: row;
+    padding: 25px;
+    margin: 25px;
+}
+.fa-chevron-down{
+    color: #e76c87;
+    padding-right: 10px;
+}
+.big-p{
+    font-size: 1.5em;
+}
+.big-title{
+    font-size: 9em;
+    border-right: 3px solid #e76c87;
+    color: #88457D;
+    padding: 25px;
+    margin: 50px;
+
+    font-style: italic;
+    line-height: 85.5%;
+}
+#subtitle{
+    background-color: #88457D;
+    width: 100%;
+    
+}
+.content-wrapper{
+    margin: 50px 25px 0px 50px;
+    border-left: 3px solid #e76c87;
+    padding: 25px 0px 25px 25px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row;
+    font-size: 2.2em;
+    line-height: 2em;
+    color: #F0F8F8;
+}
+.top span {
+    font-size: 2em;
+}
+#self-sketch{
+    width: 35%;
+    padding: 0px 50px 0px 0px;
+}
+.bottom{
+    max-width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 25px;
+    border-right: 3px solid #e76c87;
+    margin: 0 25px 0 auto;
+    text-align: right;
+}
+#methodologies, 
+#methods2{
+    background-color: #928FBB;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row;
+    height: 100vh;
+    width: 100%;
+}
+#methods2{
+    padding:0px;
+}
+.sidebar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 30%;
+    font-size: 3em;
+    color: #88457D;
+}
+
+.card{
+    background-color: #F0F8F8;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    max-width: 35%;
+    height: 80%;
+    padding: 25px;
+}
+
+.card h3{
+    font-size: 2.5em;
+    line-height: 1em;
+    text-align: center;
+    color: #E76C87;
+    padding: 25px;
+    border-bottom: 3px solid #928FBB;
+    margin: 0px 25px;
+}
+.card p{
+    margin: 25px;
+}
+
+#tips{
+    background-color: #F0F8F8;
+    margin: 25px 50px;
+}
+.tips-title{
+    font-size: 6.5em;
+    color: #f09dc3;
+    margin: 0;
+}
+.tips-subtitle{
+    font-size: 4em;
+    color: #88457D;
+    margin: 0;
+}
+#light{
+    width: 40%;
+    padding: 50px;
+}
+.tip-side{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: row;
+    padding: 25px;
+    font-size: 0.8em;
+}
+.tip-centered{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-flow: column;
+    max-width: 70%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 20px;
+    padding: 50px;
+    font-size: 0.8em;
+}
+#toolsntech{
+    background-color: #88457D;
+    color: #f0f8f8;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    flex-flow: row;
+    border-right: 3px solid #e76c87;
+    margin: 25px;
+}
+.chunk{
+    max-width: 30%;
+}
+.icon{
+    width: 100px;
+}
+.alt-p{
+    color: #f0f8f8;
+}
+footer{
+    background-color: #928FBB;
+   
+    height: 120px;
+}
+footer a{
+    color: #f0f8f8;
+    font-family: "p22-underground", sans-serif;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+#arrow{
+   height: 40px;
+   margin: 25px;
+}
